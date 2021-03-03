@@ -1,0 +1,47 @@
+modLoader="javafml" #mandatory
+	
+loaderVersion="[35,)" #mandatory 
+
+license="All rights reserved"
+
+[[mods]] #mandatory
+	
+modId="nyko" #mandatory
+
+version="${file.jarVersion}" #mandatory
+
+displayName="Nyko" #mandatory
+
+logoFile="" #optional
+
+credits="Thanks for downloading my Mod" #optional
+	
+authors="Nyko" #optional
+
+description='''
+
+'''
+	
+[[dependencies.nyko]] #optional
+	
+    modId="forge" #mandatory
+    
+    mandatory=true #mandatory
+    
+    versionRange="[35,)" #mandatory
+    
+    ordering="NONE"
+    
+    side="BOTH"
+    
+[[dependencies.nyko]]
+		
+    modId="minecraft"
+    
+    mandatory=true
+
+    versionRange="[1.16.4,1.17)"
+    
+    ordering="NONE"
+    
+    side="BOTH"
